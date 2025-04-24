@@ -31,7 +31,7 @@ function BecomeVolunteer() {
     console.log("Form Data:", formData);
     try {
       const res = await axios.post(
-        "https://ngo-backend-ham7.onrender.com/api/vollenterRoute/vollenter/post",
+        "https://ngo-1-a22f.onrender.com/api/vollenterRoute/vollenter/post",
         formData
       );
       Swal.fire({
